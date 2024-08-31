@@ -10,7 +10,7 @@ from langchain_core.messages import HumanMessage
 from langchain_groq import ChatGroq
 
 
-os.environ["GROQ_API_KEY"]='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'
+os.environ["GROQ_API_KEY"]='__GROQ-API-KEY__'
 model=ChatGroq(model="llama3-8b-8192")
 
 
